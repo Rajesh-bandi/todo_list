@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(21, 17, 17);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(31, 31, 31);
+    height: fit-content;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(110, 52, 245);
+}
+.input-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+input[type="text"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    width: 200px;
+    outline: none;
+    background-color: rgb(41, 41, 41);
+    border: none;
+    color: whitesmoke;
+    font-size: 16px;
+}
+button{
+    padding: 10px 15px;
+    background-color: rgb(110, 52, 245);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+}
+
+button:hover{
+    background-color:rgb(76, 0, 255);
+    transform: scale(1.05);
+}
+input[type="text"]:focus{
+    border: 2px solid rgb(121, 70, 239);
+    box-shadow: 0 0 5px rgba(159, 100, 218, 0.5);
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    width: 100%;
+}
+
+li button{
+    background-color: rgb(226, 53, 53);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+}
+li button:hover{
+    background-color: rgb(179, 63, 63);
+    transform: scale(1.05);
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.completed{
+    text-decoration: line-through;
+    color: rgb(110, 52, 245);
+}
